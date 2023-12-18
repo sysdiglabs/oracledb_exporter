@@ -23,7 +23,7 @@ EXPOSE 9161
 USER 1000
 ENTRYPOINT ["/oracledb_exporter"]
 
-FROM quay.io/sysdig/sysdig-mini-ubi:1.5.0 as ubi
+FROM quay.io/sysdig/sysdig-mini-ubi9:1.2.0 as ubi
 ARG LEGACY_TABLESPACE
 ENV LEGACY_TABLESPACE=${LEGACY_TABLESPACE}
 COPY --from=builder /go/src/oracledb_exporter/oracledb_exporter /oracledb_exporter
