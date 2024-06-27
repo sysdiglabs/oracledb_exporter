@@ -1,3 +1,15 @@
+## ⚠️ Repository Archived - No Longer Maintained
+
+Notice: This repository is no longer actively maintained by Sysdig.
+
+As of 27th June 2024, we will not be providing any further updates, bug fixes, or support for this project. Instead of forking this repository, we recommend using the original repository from which this project was forked: [ORACLEDB_EXPORTER](https://github.com/iamseth/oracledb_exporter).
+
+We have transitioned to using the Github image for this Prometheus exporter, which is based on the original repository. You can find more information and the Github image here: [Github Image Link](https://github.com/iamseth/oracledb_exporter/pkgs/container/oracledb_exporter).
+
+We appreciate the community's contributions and support over the lifespan of this project.
+
+Thank you for your understanding.
+
 # Oracle DB Exporter
 
 [![Build Status](https://travis-ci.org/iamseth/oracledb_exporter.svg)](https://travis-ci.org/iamseth/oracledb_exporter)
